@@ -1,0 +1,16 @@
+PODS:
+  - CQAlertFrameworkPod (0.1.0)
+
+DEPENDENCIES:
+  - CQAlertFrameworkPod (from `../`)
+
+EXTERNAL SOURCES:
+  CQAlertFrameworkPod:
+    :path: "../"
+
+SPEC CHECKSUMS:
+  CQAlertFrameworkPod: 96e01da26962495eb21339ec0c6b81557eba71d7
+
+PODFILE CHECKSUM: 5941408080031b4ac4b879dbb1922f920a8c40b7
+
+COCOAPODS: 1.9.2

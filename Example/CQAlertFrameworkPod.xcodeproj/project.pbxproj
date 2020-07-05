@@ -13,9 +13,9 @@
 
 /* Begin PBXFileReference section */
 		0034F3EE506CD7B328CDFB9B /* Pods-CQAlertFrameworkPod_Tests.release.xcconfig */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text.xcconfig; name = "Pods-CQAlertFrameworkPod_Tests.release.xcconfig"; path = "Target Support Files/Pods-CQAlertFrameworkPod_Tests/Pods-CQAlertFrameworkPod_Tests.release.xcconfig"; sourceTree = "<group>"; };
-		107E607F7F249DF1377D7FC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
-		1B02A3B37D5CD71375800175 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; name = README.md; path = ../README.md; sourceTree = "<group>"; };
-		27D93BB83A571743BCFF5F40 /* CQAlertFrameworkPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; name = CQAlertFrameworkPod.podspec; path = ../CQAlertFrameworkPod.podspec; sourceTree = "<group>"; };
+		107E607F7F249DF1377D7FC7 /* LICENSE */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = LICENSE; path = ../LICENSE; sourceTree = "<group>"; };
+		1B02A3B37D5CD71375800175 /* README.md */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = net.daringfireball.markdown; name = README.md; path = ../README.md; sourceTree = "<group>"; };
+		27D93BB83A571743BCFF5F40 /* CQAlertFrameworkPod.podspec */ = {isa = PBXFileReference; includeInIndex = 1; lastKnownFileType = text; name = CQAlertFrameworkPod.podspec; path = ../CQAlertFrameworkPod.podspec; sourceTree = "<group>"; xcLanguageSpecificationIdentifier = xcode.lang.ruby; };
 		607FACE51AFB9204008FA782 /* CQAlertFrameworkPod_Tests.xctest */ = {isa = PBXFileReference; explicitFileType = wrapper.cfbundle; includeInIndex = 0; path = CQAlertFrameworkPod_Tests.xctest; sourceTree = BUILT_PRODUCTS_DIR; };
 		607FACEA1AFB9204008FA782 /* Info.plist */ = {isa = PBXFileReference; lastKnownFileType = text.plist.xml; path = Info.plist; sourceTree = "<group>"; };
 		607FACEB1AFB9204008FA782 /* Tests.swift */ = {isa = PBXFileReference; lastKnownFileType = sourcecode.swift; path = Tests.swift; sourceTree = "<group>"; };
@@ -87,7 +87,6 @@
 				C2C6D2981BA3D7D145E4F11F /* Pods-CQAlertFrameworkPod_Tests.debug.xcconfig */,
 				0034F3EE506CD7B328CDFB9B /* Pods-CQAlertFrameworkPod_Tests.release.xcconfig */,
 			);
-			name = Pods;
 			path = Pods;
 			sourceTree = "<group>";
 		};
@@ -131,10 +130,6 @@
 				LastUpgradeCheck = 0830;
 				ORGANIZATIONNAME = CocoaPods;
 				TargetAttributes = {
-					607FACCF1AFB9204008FA782 = {
-						CreatedOnToolsVersion = 6.3.1;
-						LastSwiftMigration = 0900;
-					};
 					607FACE41AFB9204008FA782 = {
 						CreatedOnToolsVersion = 6.3.1;
 						LastSwiftMigration = 0900;
@@ -147,6 +142,7 @@
 			developmentRegion = English;
 			hasScannedForEncodings = 0;
 			knownRegions = (
+				English,
 				en,
 				Base,
 			);

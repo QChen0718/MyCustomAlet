@@ -1,0 +1,22 @@
+{
+  "name": "CQAlertFrameworkPod",
+  "version": "0.1.0",
+  "summary": "A short description of CQAlertFrameworkPod.",
+  "description": "TODO: Add long description of the pod here.",
+  "homepage": "https://github.com/chenqing0718@163.com/CQAlertFrameworkPod",
+  "license": {
+    "type": "MIT",
+    "file": "LICENSE"
+  },
+  "authors": {
+    "chenqing0718@163.com": "chenqing0718@163.com"
+  },
+  "source": {
+    "git": "https://github.com/chenqing0718@163.com/CQAlertFrameworkPod.git",
+    "tag": "0.1.0"
+  },
+  "platforms": {
+    "ios": "8.0"
+  },
+  "source_files": "CQAlertFrameworkPod/Classes/**/*"
+}
