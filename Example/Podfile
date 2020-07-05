@@ -1,0 +1,6 @@
+use_frameworks!
+target 'CQAlertFrameworkPod_Tests' do
+  pod 'CQAlertFrameworkPod', :path => '../'
+  
+  
+end
